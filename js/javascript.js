@@ -30,11 +30,11 @@ alert('Le Quotient de A/B est : ' + q + '\nLe reste de A/B est : ' + r);
 let a1 = prompt('Entrez un entier A : ');
 let b1 = prompt('Entrez un entier B : ');
 let somme = 0;
-if (a===0 && b===0) {
+if (a1===0 && b1===0) {
     alert('Le produit '+a1+'*'+b1+' est : ' + 0);
 }else {
     for(let i = 0; i < b1; i++) {
-        somme = somme+a;
+        somme = somme+a1;
     }
     alert('Le produit '+a1+'*'+b1+' est : ' +somme);
 }
